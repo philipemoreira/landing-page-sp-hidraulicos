@@ -1,24 +1,29 @@
-# SP Hidráulicos
+# NovaHidráulica — Landing Page de Portfólio
 
-Site institucional da SP Hidráulicos — manutenção preventiva e corretiva de sistemas hidráulicos industriais em Cianorte/PR.
+Landing page de exemplo para o nicho de manutenção hidráulica industrial, usada como
+peça de portfólio para apresentar a clientes reais. **É um projeto de demonstração —
+o nome, a marca e os dados de contato são fictícios/do desenvolvedor, sem vínculo com
+nenhuma empresa real.**
 
 ## Estrutura do projeto
 
 ```
-sp-hidraulicos/
+novahidraulica/
 ├── index.html      # Estrutura da página
 ├── style.css        # Estilos e responsividade (desktop, tablet e mobile)
 ├── script.js         # Menu mobile, scrollspy, carrossel do portfólio, animações de scroll
-└── Imagens/          # Pasta de imagens (adicionar manualmente — não está neste pacote)
+└── Imagens/          # Apenas os logos reais de fornecedores (marcas de mercado)
 ```
 
-## Importante: pasta de Imagens
+## Sobre as imagens
 
-Este pacote contém apenas o código (HTML/CSS/JS). As imagens referenciadas no site
-(logo, fotos do portfólio, posts do Instagram, logos dos fornecedores) precisam ser
-adicionadas manualmente dentro de uma pasta chamada `Imagens/` na raiz do repositório,
-mantendo os mesmos nomes de arquivo já usados no `index.html` (ex: `Imagens/logo-sp.png`,
-`Imagens/Portfolio 1.jpg`, `Imagens/Fornecedores/vickers.png`, etc.).
+Fotos de portfólio, posts de Instagram e a foto interna da oficina foram substituídas
+por placeholders estilizados (ícone + legenda) diretamente no HTML/CSS — não é
+necessário nenhuma foto para o site funcionar e ficar visualmente completo. Quando
+houver fotos reais de projetos, é só trocar o bloco `item-trabalho-placeholder`
+correspondente por uma tag `<img>`. As logos em `Imagens/Fornecedores/` são marcas
+reais do setor (Aeroquip, Danfoss, Eaton etc.), usadas apenas como referência de
+compatibilidade de peças — isso pode ficar como está.
 
 ## Como publicar com GitHub Pages (hospedagem gratuita)
 
@@ -27,7 +32,13 @@ mantendo os mesmos nomes de arquivo já usados no `index.html` (ex: `Imagens/log
 3. Vá em **Settings → Pages**.
 4. Em "Branch", selecione `main` (ou `master`) e a pasta `/root`, depois clique em **Save**.
 5. Em alguns minutos o GitHub gera um link público, algo como:
-   `https://seu-usuario.github.io/sp-hidraulicos/`
+   `https://xf1lps.github.io/landing-page-sp-hidraulicos/`
+
+## Contato do site
+
+Os botões "Fale Conosco" / "Solicitar Orçamento" e os links de redes sociais no
+rodapé apontam para o WhatsApp e Instagram do desenvolvedor (Philipe) — assim,
+quem visitar essa peça de portfólio e clicar cai direto em contato com você.
 
 ## Tecnologias
 
