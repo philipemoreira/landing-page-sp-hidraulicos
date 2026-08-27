@@ -1,46 +1,48 @@
-# NovaHidráulica — Landing Page de Portfólio
+🇧🇷 [Ler em Português](site-README.pt-BR.md)
 
-Landing page de exemplo para o nicho de manutenção hidráulica industrial, usada como
-peça de portfólio para apresentar a clientes reais. **É um projeto de demonstração —
-o nome, a marca e os dados de contato são fictícios/do desenvolvedor, sem vínculo com
-nenhuma empresa real.**
+# NovaHidráulica — Portfolio Landing Page
 
-## Estrutura do projeto
+An example landing page for the industrial hydraulic maintenance niche, used as
+a portfolio piece to show to real clients. **This is a demo/portfolio project —
+the brand name and contact details are fictional or belong to the developer; it
+is not affiliated with any real company.**
+
+## Project structure
 
 ```
 novahidraulica/
-├── index.html      # Estrutura da página
-├── style.css        # Estilos e responsividade (desktop, tablet e mobile)
-├── script.js         # Menu mobile, scrollspy, carrossel do portfólio, animações de scroll
-└── Imagens/          # Apenas os logos reais de fornecedores (marcas de mercado)
+├── index.html      # Page markup
+├── style.css        # Styles and responsiveness (desktop, tablet, mobile)
+├── script.js         # Mobile menu, scrollspy, portfolio carousel, scroll animations
+└── Imagens/          # Only the real supplier logos (industry brands)
 ```
 
-## Sobre as imagens
+## About the images
 
-Fotos de portfólio, posts de Instagram e a foto interna da oficina foram substituídas
-por placeholders estilizados (ícone + legenda) diretamente no HTML/CSS — não é
-necessário nenhuma foto para o site funcionar e ficar visualmente completo. Quando
-houver fotos reais de projetos, é só trocar o bloco `item-trabalho-placeholder`
-correspondente por uma tag `<img>`. As logos em `Imagens/Fornecedores/` são marcas
-reais do setor (Aeroquip, Danfoss, Eaton etc.), usadas apenas como referência de
-compatibilidade de peças — isso pode ficar como está.
+Portfolio photos, Instagram posts, and the workshop interior photo were replaced
+with styled placeholders (icon + caption) directly in the HTML/CSS — no photos
+are required for the site to work and look visually complete. When real project
+photos are available, just swap the corresponding `item-trabalho-placeholder`
+block for an `<img>` tag. The logos in `Imagens/Fornecedores/` are real industry
+brands (Aeroquip, Danfoss, Eaton, etc.), used only as a parts-compatibility
+reference — those can stay as they are.
 
-## Como publicar com GitHub Pages (hospedagem gratuita)
+## How to publish with GitHub Pages (free hosting)
 
-1. Crie um repositório novo no GitHub (pode ser público).
-2. Envie estes arquivos (e a pasta `Imagens/`) para o repositório.
-3. Vá em **Settings → Pages**.
-4. Em "Branch", selecione `main` (ou `master`) e a pasta `/root`, depois clique em **Save**.
-5. Em alguns minutos o GitHub gera um link público, algo como:
+1. Create a new GitHub repository (it can be public).
+2. Upload these files (and the `Imagens/` folder) to the repository.
+3. Go to **Settings → Pages**.
+4. Under "Branch", select `main` (or `master`) and the `/root` folder, then click **Save**.
+5. Within a few minutes GitHub generates a public link, something like:
    `https://xf1lps.github.io/landing-page-sp-hidraulicos/`
 
-## Contato do site
+## Site contact
 
-Os botões "Fale Conosco" / "Solicitar Orçamento" e os links de redes sociais no
-rodapé apontam para o WhatsApp e Instagram do desenvolvedor (Philipe) — assim,
-quem visitar essa peça de portfólio e clicar cai direto em contato com você.
+The "Contact Us" / "Get a Quote" buttons and the footer social links point to
+the developer's (Philipe's) WhatsApp and Instagram — so anyone who visits this
+portfolio piece and clicks lands directly in a conversation with you.
 
-## Tecnologias
+## Tech stack
 
-- HTML5, CSS3 e JavaScript puro (sem frameworks)
-- Ícones: [Lucide Icons](https://lucide.dev/)
+- HTML5, CSS3, and vanilla JavaScript (no frameworks)
+- Icons: [Lucide Icons](https://lucide.dev/)
